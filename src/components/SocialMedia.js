@@ -6,7 +6,14 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <FaLinkedin />
+        <a
+          style={{ cursor: "pointer" }}
+          href="https://www.linkedin.com/in/nurmuhammet-muradov-87b684178"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedin />
+        </a>
       </div>
       <div>
         <FaFacebook />
